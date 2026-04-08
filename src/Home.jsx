@@ -46,8 +46,8 @@ function Home() {
                     <p className="text-gray-600 text-center mb-4">Easily Calculate your Cumulative GPA based on the
                         Nigerian 5-point grading scale.
                         Add Courses, input Grades, and get your results instantly</p>
-                    <button className="cursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
-    hover:bg-blue-600 transition shadow-lgcursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
+                    <button onClick={() => window.open('https://jenissi.me/Cgpa/index.html', '_blank')} className="cursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
+    hover:bg-blue-600 transition shadow-lg cursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
     hover:bg-blue-600 transition shadow-lg mb-2">Open Calculator
                     </button>
                 </div>
