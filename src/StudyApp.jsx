@@ -56,7 +56,7 @@ function StudyApp() {
 
         const count = Math.min(20, Math.max(1, Number.parseInt(numQuestions, 10) || 5));
 
-        const API_KEY = 'AIzaSyA966T0JV3yL0IffvQAbs8BaHkD4DPvxUo';
+        const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
         if (!API_KEY) {
             alert('Missing Gemini API key. Add VITE_GEMINI_API_KEY to a .env file and restart the dev server.');
             return;
