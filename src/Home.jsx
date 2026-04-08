@@ -11,7 +11,7 @@ function Home() {
                 <h1 className="text-2xl font-bold text-blue-600">CampusIQ</h1>
                 <div className="flex gap-6">
 
-                    <button onClick={() => window.open('/Cgpa/Cgpa.html', '_blank')} className="cursor-pointer bg-blue-400 text-white px-3 py-2 rounded-full
+                    <button onClick={() => window.open('https://jenissi.me/Cgpa/index.html', '_blank')} className="cursor-pointer bg-blue-400 text-white px-3 py-2 rounded-full
     hover:bg-blue-600 transition shadow-lg">CGPA Calculator
                     </button>
 
@@ -27,7 +27,7 @@ function Home() {
                 <p className="text-lg text-gray-500 mb-10 max-w-xl">Calculate Your CGPA and Supercharge your
                     studies -- All In One Place</p>
                 <div className="flex gap-4">
-                    <button onClick={() => window.open('/Cgpa/Cgpa.html', '_blank')} className="cursor-pointer bg-blue-400 text-white px-4 py-3 rounded-full
+                    <button onClick={() => window.open('https://jenissi.me/Cgpa/index.html', '_blank')} className="cursor-pointer bg-blue-400 text-white px-4 py-3 rounded-full
     hover:bg-blue-600 transition shadow-lg">CGPA Calculator
                     </button>
 
