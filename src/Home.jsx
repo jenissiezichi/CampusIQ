@@ -55,7 +55,7 @@ function Home() {
                 <div
                     className="bg-white rounded-xl o-8 shadow-sm border border-gray-100 flex flex-col items-center justify-center">
                     <div className="text-4xl mb-4">📚</div>
-                    <h3 className="text-xl font-bold mb-2">CGPA Calculator</h3>
+                    <h3 className="text-xl font-bold mb-2">Study App</h3>
                     <p className="text-gray-600 text-center mb-4">Upload your lecture notes as a pdf and let AI generate
                         a quiz
                         question to test your understanding. So study Smarter Not Harder😉</p>
