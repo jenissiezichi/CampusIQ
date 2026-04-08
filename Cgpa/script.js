@@ -16,7 +16,7 @@ function loadData() {
     activeSemesterId: parsed.activeSemesterId ?? null
    };
   }
-  window.alert('Still under development — kindly drop your suggestions using the button above.');
+
 
 
   if (parsed && Array.isArray(parsed.semester)) {
