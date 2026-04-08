@@ -8,6 +8,11 @@ function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
 
+      <div className="fixed inset-0 -z-10 overflow-hidden">
+  <div className="absolute w-72 h-72 bg-blue-300 rounded-full blur-3xl opacity-30 animate-pulse top-10 left-10"></div>
+  <div className="absolute w-72 h-72 bg-purple-300 rounded-full blur-3xl opacity-30 animate-pulse bottom-10 right-10"></div>
+</div>
+
       {/* NAVBAR */}
       <nav className="flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-8 py-4 border-b border-gray-200">
         <h1 className="text-2xl font-bold text-blue-600">CampusIQ</h1>
