@@ -59,7 +59,7 @@ function Home() {
                     <p className="text-gray-600 text-center mb-4">Upload your lecture notes as a pdf and let AI generate
                         a quiz
                         question to test your understanding. So study Smarter Not Harder😉</p>
-                    <button className="cursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
+                    <button onClick={() => navigate('/study')} className="cursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
     hover:bg-blue-600 transition shadow-lgcursor-pointer bg-blue-400 text-white px-6 py-3 rounded-full
     hover:bg-blue-600 transition shadow-lg mb-2">Start Studying ➡️
                     </button>
